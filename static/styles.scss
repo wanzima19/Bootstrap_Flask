@@ -1,0 +1,42 @@
+//custom styles for the news application
+$primary-color: #7d9872;
+$econdary-color: #64c13d;
+$text-color: #562323;
+$font-main: 'Arial, sans-serif';
+$children-font-size: 14px;
+$backgound-color: #efefc4;
+
+
+
+// import sass variables from bootstrap
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+    font-family: $font-main;
+    background-color: $backgound-color;
+    color: $text-color;
+}
+
+//navbar styles
+.navbar {
+    padding: 10px 20px;
+    font-family: $font-main;
+    background-color: $primary-color;
+    .nav-link {
+        color: rgb(111, 11, 251);
+        &:hover {
+            color: $econdary-color;
+        }
+    
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 24px;
+        }   
+
+        .navbar-toggler {
+            border-color: white;
+        }   
+    }
+}

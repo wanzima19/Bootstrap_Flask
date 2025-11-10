@@ -1,0 +1,24 @@
+body {
+  font-family: "Arial, sans-serif";
+  background-color: #efefc4;
+  color: #562323;
+}
+
+.navbar {
+  padding: 10px 20px;
+  font-family: "Arial, sans-serif";
+  background-color: #7d9872;
+}
+.navbar .nav-link {
+  color: rgb(111, 11, 251);
+}
+.navbar .nav-link:hover {
+  color: #64c13d;
+}
+.navbar .nav-link .navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+.navbar .nav-link .navbar-toggler {
+  border-color: white;
+}/*# sourceMappingURL=styles.css.map */
